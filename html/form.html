@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <h1>Formulir </h1>
+    <form action="/daftar" method="get">
+        <!-- get dan post adalah method kirim data ke server
+        bedanya adalah :
+        get : cocok utk search request, terlihat di url
+        post : cocok utk kirim data bersifat rahasia atau yg mempengaruhi server
+        -->
+        <div>
+            <label for="name">Nama :</label>
+            <input type="text" placeholder="Contoh : Joko" id="nama" name="name">
+        </div>
+        
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" placeholder="contoh : sule@gmail.com" id="email" name="email">
+        </div>
+        
+        <div>
+            <label for="pwd">Password :</label>
+            <input type="password" placeholder="isikan password" id="pwd" name="pwd">
+        </div>
+        
+        <div>
+            <label for="no">No HP :</label>
+            <input type="number" placeholder="0812345678" id="no" name="no">
+        </div>
+        
+        
+        <div>
+            <label for="color picker">color picker</label>
+            <input type="color" id="color picker">
+         </div>
+         <div>
+            <!-- tipe button tidak ngapa ngapain -->
+            <input type="button" value="tombol biasa">
+
+            <!-- tipe submit mengirimkan data ke alamat tertentu -->
+            <input type="submit" value="tombol submit">
+         </div>
+    </form>
+    <hr>
+    <h1>Order Baju</h1>
+    <form action="/order" >
+
+        <div>
+            <label for="size">ukuran :</label>
+            <input type="radio" name="size" id="size" value="m"><label for="m">M</label>
+            <input type="radio" name="size" id="size" value="l" checked><label for="l">L</label>
+            <input type="radio" name="size" id="size" value="xl"><label for="xl">XL</label>
+            
+            
+        </div>
+        <br>
+
+        <div>
+            <label for="kurir">pilih kurir</label>
+            <select name="kurir" id="kurir">
+                <option >-</option>
+                <option value="jnt">JnT</option>
+                <option value="posindo">Pos Indonesia</option>
+                <option value="jne">JNE</option>
+                <option value="sicepat">Sicepat</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="term">Pesanan sudah sesuai</label>
+            <input type="checkbox" name="term" id="term">
+        </div>
+        <div>
+            <p><label for="note">catatan</label></p>            
+            <textarea name="note" id="note" cols="20" rows="5" placeholder="isikan catatanmu disini"></textarea>
+        </div>
+        <div><input type="submit" value="order !"></div>
+    </form>
+    <hr>
+    <h1>Validasi</h1>
+    <form action="/validasi">
+        <input type="text" name="name" id="name" placeholder="isikan nama" required minlength="5" maxlength="12">
+        <input type="number" name="qty" id="qty" min="1" max="5">
+        <button type="submit">send to</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+}
+
+button {
+    width: 120px;
+    height: 80px;
+    color: blue;
+    background-color: blanchedalmond;
+}
+p {
+    color: grey;
+    background-color: beige;
+}

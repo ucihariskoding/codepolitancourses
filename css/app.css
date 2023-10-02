@@ -1,5 +1,7 @@
 h1 {
     color: red;
+    text-align: center;
+    text-decoration: underline overline;
 }
 
 button {
@@ -11,4 +13,18 @@ button {
 p {
     color: grey;
     background-color: beige;
+    text-align: end;
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+ol {
+    color: rgb(235, 235, 241);
+    background-color: rgb(15, 5, 51);
+    font-size: smaller;
+}
+#pisang {
+    color: yellow;
+    font-size: large;
 }

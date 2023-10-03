@@ -28,3 +28,10 @@ ol {
     color: yellow;
     font-size: large;
 }
+
+/* contoh descendant selector
+pilih a yang berada di dalam ol
+*/
+ol a{
+    background-color: brown;
+}

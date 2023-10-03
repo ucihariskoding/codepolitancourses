@@ -12,7 +12,7 @@ button {
 }
 p {
     color: grey;
-    background-color: beige;
+    background-color: rgb(180, 180, 19);
     text-align: end;
     font-weight: lighter;
     line-height: 1.5;
@@ -31,7 +31,26 @@ ol {
 
 /* contoh descendant selector
 pilih a yang berada di dalam ol
+
+fungsi sama dengan penggunaan selector memakai class / id
 */
 ol a{
     background-color: brown;
+}
+
+/* contoh direct descendant selector
+nembak element langsung dibwah element tsb
+
+contoh : memberi warna BG aquamarine pada paragraf di dalam h2
+*/
+h2>p{
+    background-color: aquamarine;
+}
+
+/* contoh atribut selector
+memilih style pada atribut
+*/
+input[type="text"]{
+    color: brown;
+    font-style: italic;
 }

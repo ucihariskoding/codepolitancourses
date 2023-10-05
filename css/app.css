@@ -54,3 +54,8 @@ input[type="text"]{
     color: brown;
     font-style: italic;
 }
+
+/* contoh pseudo class */
+input:hover {
+    background-color: rgb(178, 178, 236);
+}

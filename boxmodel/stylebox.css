@@ -1,5 +1,6 @@
 div {
     width: 300px;
+<<<<<<< HEAD
     padding: 50px;
     margin: 20px 100px;
 }
@@ -19,4 +20,9 @@ p {
 span {
     background-color: aqua;
     border: 2px solid black;
+=======
+    border: 1px solid black;
+    padding: 50px;
+    margin: 20px;
+>>>>>>> 2e2be0d228e04202a1f22aa62dd1b1c83b6460ae
 }

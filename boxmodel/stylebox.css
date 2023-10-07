@@ -1,0 +1,22 @@
+div {
+    width: 300px;
+    padding: 50px;
+    margin: 20px 100px;
+}
+
+div {
+    border-style: dotted;
+    border-width: 5px 10px;
+    border-top-style: groove;
+    border-color: rgb(245, 169, 70) rgb(230, 70, 70);
+}
+
+p {
+    background-color: rgb(120, 120, 182);
+    border: 1px solid black;
+}
+
+span {
+    background-color: aqua;
+    border: 2px solid black;
+}

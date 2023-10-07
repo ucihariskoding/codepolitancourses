@@ -15,11 +15,12 @@ div {
 p {
     background-color: rgb(120, 120, 182);
     border: 1px solid black;
+    width: 100 px;
+    display: inline;
 }
 
 span {
-    background-color: aqua;
-    border: 2px solid black;
-    padding: 50px;
-    margin: 20px;
+    background-color: rgb(176, 185, 185);
+    border: 1px solid rgb(207, 162, 162);
+    padding: 5px;
 }

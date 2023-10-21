@@ -47,12 +47,18 @@ table {
 	border-spacing: 0;
 }
 
-/* batas formatter css */
+/* ----------------batas formatter css---------------- */
 
 body {
     font-family: 'Crimson Pro', serif;
+	background-color: #529ffa;
+	box-sizing: border-box;
 }
 
 p {
     font-family: 'Literata', serif;
+}
+
+img {
+	width: 1200px;
 }

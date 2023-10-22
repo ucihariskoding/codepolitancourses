@@ -72,4 +72,53 @@ img {
 	padding: 15px 25px;
 	width: 100px;
 	max-width:  960px; ;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pricing-plan {
+	border-bottom: 1px solid whitesmoke;
+}
+
+.pricing-plan :last-child {
+	border-bottom: none;
+}
+
+.pricing-img {
+	margin-bottom: 25px;
+	max-width:100%;
+}
+
+.pricing-header {
+	color: #888;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.pricing-features {
+	margin: 50px 0 25px;
+	color: #015ff9;
+}
+
+.pricing-feature-item{
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 1,5;
+	padding: 15px 0;
+	border-top: 1px solid whitesmoke;
+
+}
+.pricing-feature-item :last-child{
+border-bottom: 1px solid wheat;
+
+}
+
+.pricing-price {
+	color: #529fff;
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
 }

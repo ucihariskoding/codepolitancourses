@@ -1,0 +1,18 @@
+body {
+    background: #fcfafa;
+    font-family: 'Nunito', sans-serif;
+}
+
+#nav {
+    font-size: 1rem;
+    background: rgb(42, 148, 248);
+    font-weight: 100;
+}
+
+#nav .nav-link {
+    color: rgb(5, 54, 54);
+}
+
+#nav .nav-link:hover {
+    color: rgb(105, 4, 4);
+}

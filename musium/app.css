@@ -1,18 +1,18 @@
 body {
-    background: #c2ded1;
+    background: #0de07e;
     font-family: 'Nunito', sans-serif;
 }
 
 #nav .container-fluid {
     font-size: 1.5rem;
-    background: rgb(121, 121, 16);
+    background: rgb(250, 250, 11);
     font-weight: 100;
 }
 
-#nav .nav-link {
+#nav .navbar-nav {
     color: white
 }
 
 #nav .nav-link:hover {
-    color: rgb(105, 4, 4);
+    color: rgb(153, 152, 152);
 }

@@ -16,3 +16,15 @@ body {
 #nav .nav-link:hover {
     color: rgb(153, 152, 152);
 }
+
+#title-head {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #title-head h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}

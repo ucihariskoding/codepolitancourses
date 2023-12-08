@@ -1,12 +1,14 @@
 1+1;
 console.warn('konsol loe');
 
-let hari='senin';
+let hari='rabu';
 
-if (hari !== 'sabtu'){
-    console.log('nunggu sabtu yaaa ?');
+if (hari === 'sabtu'){
+    console.log('selamat hari sabtu yaaa ');
+} else if (hari === 'senin'){
+    console.log('booring day..');
 } else {
-    console.log('selamat hari sabtu ..');
+    console.log('nunggu sabtu ye?');
 }
 
 const nilai = 20;

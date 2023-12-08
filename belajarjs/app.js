@@ -8,3 +8,11 @@ if (hari !== 'sabtu'){
 } else {
     console.log('selamat hari sabtu ..');
 }
+
+const nilai = 20;
+
+if (nilai>80){
+    console.log('lulus memuaskan');
+} else {
+    console.log('dongok lu ..');
+}

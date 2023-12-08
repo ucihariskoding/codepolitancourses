@@ -34,7 +34,7 @@ if (nilai>80){
 let umor = 20;
 let gender = 'loki';
 
-if (gender === 'laki' && umor>=18){
+if (gender === 'laki' || umor>=18){
     console.log ('sudah gedeee');
 } else {
     console.log('bocil kamu dekkk');

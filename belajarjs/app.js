@@ -31,11 +31,19 @@ if (nilai>80){
 //     console.log('paswot kureng dari 6 KARAKTER');
 // }
 
-let umor = 20;
-let gender = 'loki';
+// let umor = 20;
+// let gender = 'loki';
 
-if (gender === 'laki' || umor>=18){
-    console.log ('sudah gedeee');
+// if (gender === 'laki' || umor>=18){
+//     console.log ('sudah gedeee');
+// } else {
+//     console.log('bocil kamu dekkk');
+// }
+
+const roleAnda = prompt('masukkan role anda: ');
+
+if (roleAnda !== 'admin'){
+    console.log('akses di to lak');
 } else {
-    console.log('bocil kamu dekkk');
+    console.log('akses diterima');
 }

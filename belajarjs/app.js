@@ -40,10 +40,23 @@ if (nilai>80){
 //     console.log('bocil kamu dekkk');
 // }
 
-const roleAnda = prompt('masukkan role anda: ');
+// const roleAnda = prompt('masukkan role anda: ');
 
-if (roleAnda !== 'admin'){
-    console.log('akses di to lak');
-} else {
-    console.log('akses diterima');
+// if (roleAnda !== 'admin'){
+//     console.log('akses di to lak');
+// } else {
+//     console.log('akses diterima');
+// }
+
+const balonKu = prompt('isikan warna balon');
+
+switch(balonKu){
+    case 'merah':
+        console.log('balon PDI p');
+        break;
+    case 'hijau':
+        console.log(' d o o r ..');
+        break;
+    default:
+        console.log('bukan balon saya ..');
 }

@@ -18,3 +18,15 @@ if (nilai>80){
 } else {
     console.log('dongok lu ..');
 }
+
+const passW = prompt('masukkan paswot');
+
+if (passW.length >=6){
+    if (passW.indexOf(' ')===-1){
+        console.log('paswot PALID');
+    } else {
+        console.log('paswot invalid -> mengandung spasi');
+    }
+} else {
+    console.log('paswot kureng dari 6 KARAKTER');
+}
